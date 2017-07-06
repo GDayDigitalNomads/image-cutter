@@ -1,0 +1,19 @@
+{
+  "name": "image-cutter",
+  "version": "0.0.1",
+  "description": "cuts an images using resize and crop",
+  "author": "Jordan Rancie",
+  "private": true,
+  "scripts": {
+    "start": "node image-cutter",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "lwip": "~0.0.9",
+    "better-queue": "~3.8.5",
+    "minimist": "~1.2.0"
+  },
+  "bin": {
+    "image-cutter": "index.js"
+  }
+}
