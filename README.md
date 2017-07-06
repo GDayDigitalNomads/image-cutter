@@ -41,6 +41,10 @@ A simple image cutter tool for individual and bulk image cutting for better perf
         # Resizes image.jpg to a width/height of 200px
         # outputs to newimage.jpg
            
+##### Handy commands
+        $ for f in `find`; do mv -v "$f" "`echo $f | tr '[A-Z]' '[a-z]'`"; done
+        # converts all image files to lower case
+                
                 
 The MIT License (MIT)
 
