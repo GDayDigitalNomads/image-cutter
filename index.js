@@ -160,8 +160,8 @@ args._.forEach(function (imgfilename) {
                 '   images: \n'
             stream = fs.createWriteStream(imgfilename + '/' + outputFileName, {flags: 'w'});
             stream.write(out);
-            var files = fs.readdirSync(imgfilename);
         }
+        var files = fs.readdirSync(imgfilename);
         files.forEach((function(file) {
             //console.log('Processing %s', imgfilename + '/' + file)
             processImage(imgfilename, file)
