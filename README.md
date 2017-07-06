@@ -4,6 +4,7 @@ A simple image cutter tool for individual and bulk image cutting for better perf
 
 #### Installation
 
+    $ git clone git@github.com:GDayDigitalNomads/image-cutter.git
     $ npm install
     $ npm link
     
@@ -43,7 +44,7 @@ A simple image cutter tool for individual and bulk image cutting for better perf
            
 ##### Handy commands
         $ for f in `find`; do mv -v "$f" "`echo $f | tr '[A-Z]' '[a-z]'`"; done
-        # converts all image files to lower case
+        # converts all image files to lower case - handy when working across case insensitive AND case sensitive platforms
                 
                 
 The MIT License (MIT)
